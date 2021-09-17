@@ -17,11 +17,12 @@ import com.example.demo.topics.Topic;
 
 @RestController
 @CrossOrigin(origins = "*")
+//test updated from new br1 updated
 public class HelloController {
 	//mer
 	@Autowired
 	private TopicService topicservice;
-	
+
 	@RequestMapping("/topics")
 	public List<Topic> getAllTopic()
 	{
