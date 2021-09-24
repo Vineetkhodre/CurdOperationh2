@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.service.TopicService;
 import com.example.demo.topics.Topic;
-
+//www
 @RestController
 @CrossOrigin(origins = "*")
 public class HelloController {
@@ -26,7 +26,6 @@ public class HelloController {
 	public List<Topic> getAllTopic()
 	{
 		return topicservice.getAllTopics();
-		 
 	}
 	
 	@RequestMapping("/topics/{id}")
